@@ -1,64 +1,29 @@
-<!-- Profile README for github.com/wallematthias -->
-
-<h1 align="center">Hey, I'm Matthias 👋</h1>
-<p align="center">
-  I build things, break things, and then build them better.
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&center=true&vCenter=true&width=600&lines=Learning+in+public+%F0%9F%9A%80;Shipping+small+projects+consistently;Always+curious%2C+always+improving" alt="Typing SVG" />
-</p>
+<h1 align="center">Matthias Walle</h1>
+<p align="center">Engineering focused on practical tools, imaging workflows, and reliable software delivery.</p>
 
 ---
 
-### 🧪 About me
-- 🔭 Currently working on: `medical imaging + coding projects`
-- 🌱 Currently learning: `Python, imaging workflows, cleaner architecture`
-- 🎯 2026 goal: `ship more than I overthink`
-- ☕ Fun fact: I treat debugging like detective work
+## Profile
+- Current focus: `medical imaging and Python tooling`
+- Interests: `reproducible pipelines`, `clean architecture`, `automation`
+- Collaboration: `open to project and research-oriented work`
 
----
-
-### 🧰 Toolbox
+## Stack
 <p>
-  <img src="https://skillicons.dev/icons?i=python,git,github,vscode,linux,md" />
+  <img src="https://skillicons.dev/icons?i=python,git,github,vscode,linux,md" alt="Technology stack" />
 </p>
 
----
-
-### 📌 Featured vibes
-- 🛠️ Building practical tools
-- 📚 Learning by shipping
-- 🧠 Iterating in public
-- 🤝 Open to collaboration
-
----
-
-### 📊 Stats (no pressure edition)
+## GitHub Metrics
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=wallematthias&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wallematthias&layout=compact&theme=transparent&hide_border=true" />
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=wallematthias&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub stats" />
+  <img height="170" src="https://streak-stats.demolab.com?user=wallematthias&theme=transparent&hide_border=true" alt="GitHub streak" />
 </p>
 
+## Repository Language Overview
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=wallematthias&theme=transparent&hide_border=true" />
+  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wallematthias&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
+  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wallematthias&theme=github" alt="Repositories per language" />
 </p>
 
----
-
-### 🎵 Optional fun block
-<!-- Replace yourname with Spotify username if you want -->
-<!--
-<p align="center">
-  <img src="https://spotify-github-profile.kittinanx.com/api/view?uid=YOUR_SPOTIFY_UID&cover_image=true&theme=default" />
-</p>
--->
-
----
-
-### 📫 Reach me
+## Contact
 - GitHub: [@wallematthias](https://github.com/wallematthias)
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=wallematthias&label=Profile+views&color=0e75b6&style=flat" alt="profile views" />
-</p>
