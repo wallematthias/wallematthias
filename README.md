@@ -19,11 +19,13 @@
 </p>
 
 ## Repository Language Overview
-- Python
-- C++
-- CMake
-- Shell
-- MATLAB
+<!-- LANG_OVERVIEW_START -->
+_Auto-updated from public repositories._
+
+| Language | Share | Repositories |
+|---|---:|---:|
+| Updating... | -- | -- |
+<!-- LANG_OVERVIEW_END -->
 
 ## Notes
 - Python detail: if it works on the first run, there is probably a hidden global state somewhere.

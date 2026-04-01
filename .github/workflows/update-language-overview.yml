@@ -1,0 +1,85 @@
+name: Update Language Overview
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 6 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  update-languages:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build language overview
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const readmePath = 'README.md';
+
+            // Fetch all non-fork, non-archived repositories owned by the profile user.
+            const repositories = await github.paginate(github.rest.repos.listForUser, {
+              username: owner,
+              per_page: 100,
+              type: 'owner'
+            });
+
+            const repos = repositories.filter(r => !r.fork && !r.archived);
+
+            const bytesByLanguage = new Map();
+            const reposByLanguage = new Map();
+
+            for (const r of repos) {
+              const langs = await github.request(r.languages_url);
+              const langEntries = Object.entries(langs.data || {});
+              for (const [lang, bytes] of langEntries) {
+                bytesByLanguage.set(lang, (bytesByLanguage.get(lang) || 0) + bytes);
+                reposByLanguage.set(lang, (reposByLanguage.get(lang) || 0) + 1);
+              }
+            }
+
+            const totalBytes = [...bytesByLanguage.values()].reduce((a, b) => a + b, 0);
+            const rows = [...bytesByLanguage.entries()]
+              .sort((a, b) => b[1] - a[1])
+              .slice(0, 8)
+              .map(([lang, bytes]) => {
+                const pct = totalBytes > 0 ? ((bytes / totalBytes) * 100).toFixed(1) : '0.0';
+                const reposCount = reposByLanguage.get(lang) || 0;
+                return `| ${lang} | ${pct}% | ${reposCount} |`;
+              });
+
+            const table = [
+              '_Auto-updated from public repositories._',
+              '',
+              '| Language | Share | Repositories |',
+              '|---|---:|---:|',
+              ...(rows.length ? rows : ['| No language data found | -- | -- |'])
+            ].join('\n');
+
+            const start = '<!-- LANG_OVERVIEW_START -->';
+            const end = '<!-- LANG_OVERVIEW_END -->';
+
+            const readme = fs.readFileSync(readmePath, 'utf8');
+            const pattern = new RegExp(`${start}[\\s\\S]*?${end}`, 'm');
+            const replacement = `${start}\n${table}\n${end}`;
+
+            if (!pattern.test(readme)) {
+              core.setFailed('LANG_OVERVIEW markers not found in README.md');
+              return;
+            }
+
+            const updated = readme.replace(pattern, replacement);
+            fs.writeFileSync(readmePath, updated);
+
+      - name: Commit and push
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore(readme): update repository language overview"
+          file_pattern: README.md
