@@ -15,15 +15,18 @@
 
 ## GitHub Metrics
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=wallematthias&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub stats" />
   <img height="170" src="https://streak-stats.demolab.com?user=wallematthias&theme=transparent&hide_border=true" alt="GitHub streak" />
 </p>
 
 ## Repository Language Overview
-<p align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=wallematthias&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
-  <img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=wallematthias&theme=github" alt="Repositories per language" />
-</p>
+- Python
+- C++
+- CMake
+- Shell
+- MATLAB
+
+## Notes
+- Python detail: if it works on the first run, there is probably a hidden global state somewhere.
 
 ## Contact
 - GitHub: [@wallematthias](https://github.com/wallematthias)
