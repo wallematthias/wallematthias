@@ -35,7 +35,7 @@ _Auto-updated from public repositories._
 <!-- LANG_OVERVIEW_END -->
 
 ## Notes
-- Python detail: if it works on the first run, there is probably a hidden global state somewhere.
+> If it works on the first run, there is probably a hidden global state somewhere.
 
 ## Contact
 - GitHub: [@wallematthias](https://github.com/wallematthias)
