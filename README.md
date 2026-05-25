@@ -24,12 +24,12 @@ _Auto-updated from public repositories._
 
 | Language | Share | Repositories |
 |---|---:|---:|
-| Python | 69.9% | 12 |
-| Jupyter Notebook | 25.8% | 5 |
-| SCSS | 1.3% | 1 |
-| HTML | 1.1% | 2 |
-| TypeScript | 0.6% | 1 |
-| JavaScript | 0.5% | 1 |
+| Python | 74.0% | 12 |
+| Jupyter Notebook | 22.2% | 5 |
+| SCSS | 1.1% | 1 |
+| HTML | 0.9% | 2 |
+| TypeScript | 0.5% | 1 |
+| JavaScript | 0.4% | 1 |
 | Ruby | 0.2% | 1 |
 | Shell | 0.2% | 4 |
 <!-- LANG_OVERVIEW_END -->
