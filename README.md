@@ -24,8 +24,8 @@ _Auto-updated from public repositories._
 
 | Language | Share | Repositories |
 |---|---:|---:|
-| Python | 74.0% | 12 |
-| Jupyter Notebook | 22.2% | 5 |
+| Python | 75.2% | 13 |
+| Jupyter Notebook | 21.2% | 5 |
 | SCSS | 1.1% | 1 |
 | HTML | 0.9% | 2 |
 | TypeScript | 0.5% | 1 |
