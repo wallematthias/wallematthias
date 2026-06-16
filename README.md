@@ -22,6 +22,7 @@ workflows.
 | Area | Repositories | Purpose |
 |---|---|---|
 | HR-pQCT | [TimelapsedHRpQCT](https://github.com/wallematthias/TimelapsedHRpQCT), [MotionScoreHRpQCT](https://github.com/wallematthias/MotionScoreHRpQCT), [hrpqct-geodesic-contour](https://github.com/wallematthias/hrpqct-geodesic-contour), [BoneMechanoregulation](https://github.com/wallematthias/BoneMechanoregulation), `AdvectionRemodelling` | Longitudinal registration, remodelling maps, motion scoring, contour support, mechanoregulation analysis, and synthetic validation examples. |
+| CT / spine | [spineFE-benchmark](https://github.com/Bonelab/spineFE-benchmark), `spine-segmentation` | Vertebral finite-element benchmarking and private spine CT segmentation tooling. |
 | Mechanics | [parosol-py](https://github.com/wallematthias/parosol-py) | Python-accessible finite-element mechanics and scanner/profile shortcuts for HR-pQCT-style analyses. |
 | 3D Slicer | [SlicerTimelapsedHRpQCT](https://github.com/wallematthias/SlicerTimelapsedHRpQCT), [SlicerMotionScoreHRpQCT](https://github.com/wallematthias/SlicerMotionScoreHRpQCT) | Interactive workflow wrappers for registration, remodelling review, and motion scoring. |
 | MRI | [BoneQuantMRI](https://github.com/wallematthias/BoneQuantMRI) | MATLAB-based ROI segmentation and phantom calibration for MRI bone images. |
