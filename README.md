@@ -42,14 +42,14 @@ _Auto-updated from public repositories._
 
 | Language | Share | Repositories |
 |---|---:|---:|
-| Python | 75.5% | 16 |
-| Jupyter Notebook | 14.6% | 5 |
+| Python | 77.6% | 16 |
+| Jupyter Notebook | 12.8% | 5 |
 | C++ | 7.1% | 2 |
 | SCSS | 0.7% | 1 |
-| HTML | 0.6% | 2 |
-| TypeScript | 0.4% | 1 |
+| HTML | 0.5% | 2 |
+| TypeScript | 0.3% | 1 |
 | C | 0.3% | 1 |
-| JavaScript | 0.3% | 1 |
+| JavaScript | 0.2% | 1 |
 <!-- LANG_OVERVIEW_END -->
 
 ## Notes
