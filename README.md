@@ -42,7 +42,7 @@ _Auto-updated from public repositories._
 
 | Language | Share | Repositories |
 |---|---:|---:|
-| Python | 86.0% | 21 |
+| Python | 86.1% | 21 |
 | Jupyter Notebook | 7.6% | 5 |
 | C++ | 4.2% | 2 |
 | C | 0.5% | 2 |
