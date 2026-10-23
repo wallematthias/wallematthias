@@ -1,42 +1,34 @@
 <h1 align="center">Matthias Walle</h1>
-<p align="center">Engineering focused on practical tools, imaging workflows, and reliable software delivery.</p>
+<p align="center">Medical imaging · Bone microstructure · Computational mechanobiology</p>
 
----
-
-## Profile
-- Current focus: `medical imaging and Python tooling`
-- Interests: `reproducible pipelines`, `clean architecture`, `automation`
-- Collaboration: `open to project and research-oriented work`
-
-## Stack
-<p>
-  <img src="https://skillicons.dev/icons?i=python,git,github,vscode,linux,md" alt="Technology stack" />
-</p>
-
-## Research Software
-
-I build practical HR-pQCT and bone-imaging software: reproducible analysis
-pipelines, Slicer-facing tools, mechanics solvers, and simulation/validation
-workflows.
-
-| Area | Repositories | Purpose |
-|---|---|---|
-| HR-pQCT | [TimelapsedHRpQCT](https://github.com/wallematthias/TimelapsedHRpQCT), [MotionScoreHRpQCT](https://github.com/wallematthias/MotionScoreHRpQCT), [hrpqct-geodesic-contour](https://github.com/wallematthias/hrpqct-geodesic-contour), [BoneMechanoregulation](https://github.com/wallematthias/BoneMechanoregulation), `AdvectionRemodelling` | Longitudinal registration, remodelling maps, motion scoring, contour support, mechanoregulation analysis, and synthetic validation examples. |
-| CT / spine | [spineFE-benchmark](https://github.com/Bonelab/spineFE-benchmark), `spine-segmentation` | Vertebral finite-element benchmarking and private spine CT segmentation tooling. |
-| Mechanics | [parosol-py](https://github.com/wallematthias/parosol-py) | Python-accessible finite-element mechanics and scanner/profile shortcuts for HR-pQCT-style analyses. |
-| 3D Slicer | [SlicerTimelapsedHRpQCT](https://github.com/wallematthias/SlicerTimelapsedHRpQCT), [SlicerMotionScoreHRpQCT](https://github.com/wallematthias/SlicerMotionScoreHRpQCT) | Interactive workflow wrappers for registration, remodelling review, and motion scoring. |
-| MRI | [BoneQuantMRI](https://github.com/wallematthias/BoneQuantMRI) | MATLAB-based ROI segmentation and phantom calibration for MRI bone images. |
-
-Current public stack: `TimelapsedHRpQCT` -> `BoneMechanoregulation` with
-`parosol-py` providing the mechanics layer. Slicer repositories provide the
-interactive review and workflow layer.
-
-## GitHub Metrics
 <p align="center">
-  <img height="170" src="https://streak-stats.demolab.com?user=wallematthias&theme=transparent&hide_border=true" alt="GitHub streak" />
+  <a href="https://digitalmechanobiology.ca">Lab website</a> ·
+  <a href="https://github.com/DigitalMechanobiologyLab">Lab GitHub</a> ·
+  <a href="https://wallematthias.github.io">Personal website</a>
 </p>
 
-## Repository Language Overview
+I lead the **[Digital Mechanobiology Lab](https://digitalmechanobiology.ca)** in the Department of Radiology at the **University of Calgary**. We combine medical imaging, computational modelling, and machine learning to study how mechanical forces shape tissue behaviour, with a focus on cancer–bone mechanobiology, spinal alignment, and bone adaptation.
+
+I develop research software that connects images to quantitative measurements of bone structure, mechanics, and tissue adaptation. Reproducible workflows and tools that researchers can use in practice are central to this work.
+
+## Lab software
+
+Our lab software now lives at **[DigitalMechanobiologyLab](https://github.com/DigitalMechanobiologyLab)**. Start with the lab GitHub homepage for the full software catalogue, installation links, and method descriptions.
+
+| Area | Selected tools |
+| --- | --- |
+| **User interface tools** | [Bone Imaging Toolbox for 3D Slicer](https://github.com/DigitalMechanobiologyLab/SlicerBoneImagingToolbox) for integrated bone imaging workflows; [BoneQuantMRI](https://github.com/DigitalMechanobiologyLab/BoneQuantMRI) for quantitative bone MRI. |
+| **Microstructure tools** | [bone-contouring](https://github.com/DigitalMechanobiologyLab/bone-contouring), [bone-microarchitecture](https://github.com/DigitalMechanobiologyLab/bone-microarchitecture), and [bone-plate-rod-thinning](https://github.com/DigitalMechanobiologyLab/bone-plate-rod-thinning) for segmentation and structural analysis; [TimelapsedHRpQCT](https://github.com/DigitalMechanobiologyLab/TimelapsedHRpQCT) and [BoneMechanoregulation](https://github.com/DigitalMechanobiologyLab/BoneMechanoregulation) for longitudinal bone adaptation and its relation to mechanical stimuli. |
+| **CT tools** | [spine-segment](https://github.com/DigitalMechanobiologyLab/spine-segment) for vertebral CT segmentation; [nnUNetManager](https://github.com/DigitalMechanobiologyLab/nnUNetManager) for managing segmentation models and workflows. |
+| **Finite element modelling** | [parosol-py](https://github.com/DigitalMechanobiologyLab/parosol-py) for image-based micro finite element analysis in Python. |
+| **Image I/O tools** | [aimio-py](https://github.com/DigitalMechanobiologyLab/aimio-py) for reading Scanco AIM, ISQ, SCV, GOBJ, RAD, and RSQ files, and writing AIM files. |
+
+## Research and collaboration
+
+Visit the [lab website](https://digitalmechanobiology.ca) for research and publications, or my [personal website](https://wallematthias.github.io) for my background and other projects. For software questions and contributions, open an issue in the relevant lab repository.
+
+## Personal repository languages
+
 <!-- LANG_OVERVIEW_START -->
 _Auto-updated from public repositories._
 
@@ -52,8 +44,4 @@ _Auto-updated from public repositories._
 | TypeScript | 0.2% | 1 |
 <!-- LANG_OVERVIEW_END -->
 
-## Notes
-> If it works on the first run, there is probably a hidden global state somewhere.
-
-## Contact
-- GitHub: [@wallematthias](https://github.com/wallematthias)
+This overview covers repositories in my personal account. The lab software is hosted in the organization linked above.
