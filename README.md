@@ -34,14 +34,13 @@ _Auto-updated from public repositories._
 
 | Language | Share | Repositories |
 |---|---:|---:|
-| Python | 86.1% | 21 |
-| Jupyter Notebook | 7.6% | 5 |
-| C++ | 4.2% | 2 |
-| C | 0.5% | 2 |
-| SCSS | 0.4% | 1 |
-| Swift | 0.3% | 1 |
-| HTML | 0.3% | 2 |
-| TypeScript | 0.2% | 1 |
+| JavaScript | 35.2% | 2 |
+| HTML | 34.1% | 2 |
+| SCSS | 14.2% | 1 |
+| Python | 13.3% | 2 |
+| Ruby | 2.3% | 1 |
+| Shell | 0.6% | 1 |
+| Dockerfile | 0.3% | 1 |
 <!-- LANG_OVERVIEW_END -->
 
 This overview covers repositories in my personal account. The lab software is hosted in the organization linked above.
