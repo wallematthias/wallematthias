@@ -34,13 +34,9 @@ _Auto-updated from public repositories._
 
 | Language | Share | Repositories |
 |---|---:|---:|
-| JavaScript | 35.2% | 2 |
-| HTML | 34.1% | 2 |
-| SCSS | 14.2% | 1 |
-| Python | 13.3% | 2 |
-| Ruby | 2.3% | 1 |
-| Shell | 0.6% | 1 |
-| Dockerfile | 0.3% | 1 |
+| JavaScript | 55.0% | 1 |
+| HTML | 40.7% | 1 |
+| Python | 4.3% | 1 |
 <!-- LANG_OVERVIEW_END -->
 
 This overview covers repositories in my personal account. The lab software is hosted in the organization linked above.
